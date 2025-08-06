@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Switch DNS Provider
+Comment=Toggle DNS-over-TLS and choose DNS provider
+Exec=bash -c "~/switch-dns.sh; read -p 'Press Enter to close...'"
+Icon=network-workgroup
+Terminal=true
+Type=Application
+Categories=Network;
