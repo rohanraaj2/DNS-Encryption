@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Toggle NextDNS
+Comment=Switch between NextDNS and Cloudflare+Quad9 DNS with DNS-over-TLS
+Exec=bash -c "~/toggle-nextdns.sh; read -p 'Press Enter to close...'"
+Icon=network-workgroup
+Terminal=true
+Type=Application
+Categories=Network;
