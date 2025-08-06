@@ -1,0 +1,29 @@
+<TaskerData version="5.9">
+ <Profile sr="prof0" ve="2">
+  <cname>WiFi Private DNS Reminder</cname>
+  <State sr="con0" ve="2">
+   <code>710</code>
+   <Int sr="arg0" val="1"/>
+   <String sr="arg1" ve="3">YOUR_WIFI_SSID</String>
+  </State>
+  <Task sr="task0" ve="7">
+   <nme>Private DNS Reminder</nme>
+   <Action sr="act0" ve="7">
+    <code>311</code>
+    <Str sr="arg0" ve="3">Toggle Private DNS?</Str>
+    <Str sr="arg1" ve="3">Tap to open Private DNS settings</Str>
+    <Int sr="arg2" val="2"/>
+    <Str sr="arg3" ve="3">Reminder to toggle Private DNS</Str>
+   </Action>
+   <Action sr="act1" ve="7">
+    <code>122</code>
+    <Str sr="arg0" ve="3">android.settings.PRIVATE_DNS_SETTINGS</Str>
+    <Str sr="arg1" ve="3"/>
+    <Str sr="arg2" ve="3"/>
+    <Str sr="arg3" ve="3"/>
+    <Str sr="arg4" ve="3"/>
+    <Str sr="arg5" ve="3"/>
+   </Action>
+  </Task>
+ </Profile>
+</TaskerData>
