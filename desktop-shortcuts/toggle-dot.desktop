@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Toggle DNS over TLS
 Comment=Enable or disable DNS encryption
-Exec=bash -c "~/toggle-dot.sh; read -p 'Press Enter to close...'"
+Exec=bash -c "~/DNS-Encryption/scripts/toggle-dot.sh; read -p 'Press Enter to close...'"
 Icon=network-workgroup
 Terminal=true
 Type=Application
